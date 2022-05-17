@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="~/css/Editor.css" />
+    <link rel="stylesheet" href="~/css/editor.css" />
     <title>Full Editor - Quill Rich Text Editor</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -109,7 +109,9 @@
         </div>
         <div id="editor-container"></div>
     </div>
-
+    <ul class="actions">
+        <li><button asp-action="CreatePost" class="button border px-2">Создать пост!</button></li>
+    </ul>
 
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
