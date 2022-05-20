@@ -12,11 +12,22 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Graph" Version="4.25.0" />
+    <PackageReference Include="TinyMCE" Version="6.0.0" />
     <PackageReference Include="xunit.extensibility.core" Version="2.4.1" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\Images\Pencil.jpg" />
+    <None Include="wwwroot\quill\examples\bubble.html" />
+    <None Include="wwwroot\quill\examples\full.html" />
+    <None Include="wwwroot\quill\examples\snow.html" />
+    <None Include="wwwroot\quill\quill.bubble.css" />
+    <None Include="wwwroot\quill\quill.core.css" />
+    <None Include="wwwroot\quill\quill.core.js" />
+    <None Include="wwwroot\quill\quill.js" />
+    <None Include="wwwroot\quill\quill.min.js" />
+    <None Include="wwwroot\quill\quill.min.js.map" />
+    <None Include="wwwroot\quill\quill.snow.css" />
   </ItemGroup>
 
 </Project>
